@@ -1,0 +1,23 @@
+{
+  "name": "smarttea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "max6675-raspi": "0.0.12",
+    "node-cron": "^2.0.3",
+    "onoff": "^5.0.1",
+    "raspi": "^6.0.1",
+    "raspi-pwm": "^6.0.0",
+    "socket.io": "^2.3.0",
+    "ws": "^7.2.1"
+  }
+}
